@@ -1,104 +1,63 @@
-# section information
 section:
-  name: About
-  id: about
+  name: "About HU-Tomorrow"
+  id: "about"
   enable: true
   weight: 1
   showOnNavbar: true
-  template: sections/about.html
 
-# your designation
-designation: Software Engineer
-# your company information
-company:
-  name: Example Co.
-  url: "https://www.example.com"
+# ここに本文をMarkdown形式で記述します（ | を使うことで複数行を書けます）
+summary: |
+  <div style="line-height: 1.9; letter-spacing: 0.03em; font-size: 1.05em; color: #333;">
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+  ### A Research Community to Learn Together and Pioneer the Future
+  
+  **HU-Tomorrow is a cross-disciplinary research community at Hiroshima University.**
+  
+  Breaking down disciplinary boundaries, we bring together students and researchers from diverse academic backgrounds. Under our motto of "Learning from everyone," we tackle future-oriented themes and new challenges.
+  Unlike traditional seminars, our interactive format empowers participants to take the lead in their learning, creating a space where everyone can discover new perspectives and ideas.
+  
+  Participating in our activities is a solid achievement that you can proudly include on your CV, contributing significantly to your academic and personal growth.
+  
+  <br>
+  
+  <div style="background-color: #f8f9fa; padding: 1.5em 2em; border-radius: 12px; margin-bottom: 2em;">
 
-# a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+  #### 💡 What We Value
+  * **Interactive, two-way dialogue rather than one-way lectures**
+  * **Connections that transcend labs and specialized fields**
+  * **An environment that cultivates the seeds of young leadership**
+  * **Future-oriented themes and challenges**
+  * **A comfortable, flat discussion space that encourages active output**
+  
+  </div>
+  
+  <div style="background-color: #f8f9fa; padding: 1.5em 2em; border-radius: 12px; margin-bottom: 2em;">
 
-# your social links
-# give as many as you want. use font-awesome for the icons.
-socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  #### 🚀 Main Activities
+  * **Regular Meetups**
+    <span style="color: #666; font-size: 0.95em;">We hold regular gatherings to share the latest research topics and engage in free discussions. (Details are announced via flyers and the News section on this site.)</span>
+  
+  * **Annual Meeting**
+    <span style="color: #666; font-size: 0.95em;">An open event featuring poster sessions and Flash Talks. It is designed to deepen cross-disciplinary interests and foster casual networking among participants.</span>
+  
+  * **New activities driven by YOUR ideas!**
+    <span style="color: #666; font-size: 0.95em;">HU-Tomorrow is always looking for new ideas. We actively incorporate participants' feedback to evolve and expand our activities.</span>
+  
+  </div>
+  
+  <div style="background-color: #f4f8ff; padding: 1.5em 2em; border-radius: 12px; margin-bottom: 2em; border: 1px solid #dce8f6;">
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  #### 🤝 To Those Considering Joining
+  "I want to view my research from a different angle." "I want to meet peers with fascinating ideas." — If this sounds like you, you are more than welcome to join us!
+  
+  **Why not leverage the HU-Tomorrow platform to create and broadcast new value from Hiroshima University together?**
+  
+  <div style="text-align: center; margin-top: 1.8em;">
+    <a href="https://forms.gle/dummy-url-here" target="_blank" style="display: inline-block; background-color: #0056b3; color: white; padding: 14px 32px; border-radius: 30px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+      📝 Registration Form (Temp)
+    </a>
+  </div>
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  </div>
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
-
-# You can put custom buttons to link your relevant resources.
-# For example, you can put link for your resume.
-resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
-
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
-
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+  </div>

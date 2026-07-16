@@ -1,7 +1,7 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
 baseURL: https://toha.hugo-themes.com
 
-languageCode: en-us
+locale: en-us
 title: "HU-Tomorrow"
 
 # Use Hugo modules to add theme
@@ -19,21 +19,20 @@ module:
       target: static/fonts
 
 # Manage languages
-# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageCode: en
-    languageName: English
+  ja:
+    locale: ja
+    label: 日本語
     title: "HU-Tomorrow"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  en:
+    locale: en
+    label: English
+    title: "HU-Tomorrow"
     weight: 2
 
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: ja
 
 # Allow raw html in markdown file
 markup:
@@ -84,8 +83,8 @@ params:
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
     main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    inverted: /images/site/hu-tomorrow-logo.png
+    favicon: /images/site/hu-tomorrow-logo.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/hugo-themes/toha-example-site
@@ -130,7 +129,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -230,11 +229,12 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
-      # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+        enable: true
+        flagOverwrites:
+          - languageCode: ja
+            countryCode: jp
+          - languageCode: en
+            countryCode: us
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:

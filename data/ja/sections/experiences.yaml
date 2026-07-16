@@ -1,0 +1,33 @@
+section:
+  name: "メンバー紹介"
+  id: "experiences"
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: "ファシリテーター (教授陣)"
+      url: "#"
+      location: "広島大学"
+      overview: "分野横断プロジェクトを支援・指導する教員メンバーです。"
+    positions:
+      - designation: "○○学部 教授 / 氏名"
+        start: "2024"
+        end: "現在"
+        responsibilities:
+          - "分野横断研究のアドバイス"
+          - "学内外とのネットワーキング"
+
+  - company:
+      name: "学生オーガナイザー"
+      url: "#"
+      location: "広島大学"
+      overview: "HU-Tomorrowの企画・運営を担う学生メンバーです。"
+    positions:
+      - designation: "代表 / ○○研究科 修士2年 氏名"
+        start: "2024"
+        end: "現在"
+        responsibilities:
+          - "イベントの企画・進行"
+          - "ウェブサイトの構築・広報"

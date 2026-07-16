@@ -1,21 +1,13 @@
-# some information about you
-name: "John Doe"
-nickname: "John"
-# greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
-image: "images/author/john.png"
-# give your some contact information. they will be used in the footer
+name: "HU-Tomorrow"
+nickname: "HU-Tomorrow"
+greeting: "Welcome to"
+image: "images/site/hu-tomorrow-logo.png"
+
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
-  researchgate: john-doe
+  email: "your-community-email@gmail.com"
 
 # some summary about what you do
 summary:
-  - I am a Developer
-  - I am a Devops
-  - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - We welcome new members at any time!
+  - We aim to foster research exchange across disciplinary boundaries!
+  - Students and researchers engage in discussions as equals!

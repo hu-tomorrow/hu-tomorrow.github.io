@@ -1,7 +1,7 @@
 menus:
-  - name: "📝 Join Us"
+  - name: "📝 参加申し込み"
     url: "https://forms.gle/your-google-form-url"
     weight: 100
-  - name: "❓ Q&A/Contact"
+  - name: "❓ Q&A/お問い合わせ"
     url: "mailto:your-community-email@gmail.com"
     weight: 101

@@ -1,0 +1,63 @@
+section:
+  name: "HU-Tomorrowについて"
+  id: "about"
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+# ここに本文をMarkdown形式で記述します（ | を使うことで複数行を書けます）
+summary: |
+  <div style="line-height: 1.9; letter-spacing: 0.03em; font-size: 1.05em; color: #333;">
+
+  ### 互いに学び、未来を拓く研究者コミュニティ
+  
+  **HU-Tomorrowは、広島大学における分野横断型の研究コミュニティです。**
+  
+  分野の垣根を越え、異なる専門知識を持つ学生と研究者が集い、「我含皆師」のモットーのもと未来志向のテーマと挑戦を目指しています。
+  従来のセミナーとは異なり、参加者自身が学びの主役となるゼミ形式での活動を行い、誰もが新しい視点や発想を得られる場を目指しています。
+  
+  ここでの活動はCVにも記載できるような、あなたの成長につながる確かな実績になります。
+  
+  <br>
+  
+  <div style="background-color: #f8f9fa; padding: 1.5em 2em; border-radius: 12px; margin-bottom: 2em;">
+
+  #### 💡 私たちが大切にしていること
+  * **一方通行ではない、双方向の対話**
+  * **ラボや専門の垣根を越えたつながり**
+  * **若手のリーダーシップの芽を育む環境**
+  * **未来志向のテーマと挑戦**
+  * **アウトプットしやすく、居心地のよいフラットな議論の場**
+  
+  </div>
+  
+  <div style="background-color: #f8f9fa; padding: 1.5em 2em; border-radius: 12px; margin-bottom: 2em;">
+
+  #### 🚀 主な活動内容
+  * **定期ミートアップの開催**
+    <span style="color: #666; font-size: 0.95em;">最新の研究トピックの共有や、参加者同士の自由なディスカッションを行う交流会を定期的に開催しています。（※詳細は随時フライヤーや当サイトのNewsにてお知らせします）</span>
+  
+  * **Annual Meeting**
+    <span style="color: #666; font-size: 0.95em;">広く参加者を募り、ポスターやFlash Talkをきっかけに分野横断的に興味や知見を深めたり、参加者同士のフランクな交流を目指しています。</span>
+  
+  * **新しい活動はあなたの意見から！**
+    <span style="color: #666; font-size: 0.95em;">HU-Tomorrowは新たな活動の種を常に募集しています。参加者の意見を取り入れ、活動を発展させていきます。</span>
+  
+  </div>
+  
+  <div style="background-color: #f4f8ff; padding: 1.5em 2em; border-radius: 12px; margin-bottom: 2em; border: 1px solid #dce8f6;">
+
+  #### 🤝 参加を検討されている方へ
+  「自分の研究を違う視点から見てみたい」「面白いアイデアを持つ仲間に出会いたい」——そんな想いを持つ方であれば、どなたでも大歓迎です。
+  
+  **HU-Tomorrowというプラットフォームを活用し、私たちと一緒に広島大学から新しい価値を発信していきませんか？**
+  
+  <div style="text-align: center; margin-top: 1.8em;">
+    <a href="https://forms.gle/dummy-url-here" target="_blank" style="display: inline-block; background-color: #0056b3; color: white; padding: 14px 32px; border-radius: 30px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+      📝 参加申し込みフォーム（仮）
+    </a>
+  </div>
+
+  </div>
+
+  </div>

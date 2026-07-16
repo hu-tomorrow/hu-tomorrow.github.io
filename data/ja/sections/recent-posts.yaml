@@ -1,5 +1,5 @@
 section:
-  name: "Latest News"
+  name: "最新の活動・News"
   id: "recent-posts"
   enable: true
   weight: 3
