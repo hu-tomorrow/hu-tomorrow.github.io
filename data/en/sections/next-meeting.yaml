@@ -1,0 +1,19 @@
+section:
+  name: "Next Meeting"
+  id: "next-meeting"
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  
+flyer_image: "images/site/flyer.png"
+form_url: "https://forms.gle/dummy-url"
+
+summary: |
+  **Date & Time:** TBA, 2026 18:00 - 20:00<br>
+  **Location:** Online (Zoom)<br>
+  **Target:** All HU students and faculty members
+  
+  <br>
+  
+  **【How to Register】**<br>
+  Please register via the button below. (You can also use the QR code on the flyer.)

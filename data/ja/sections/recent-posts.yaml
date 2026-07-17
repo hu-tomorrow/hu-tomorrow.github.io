@@ -2,5 +2,5 @@ section:
   name: "最新の活動・News"
   id: "recent-posts"
   enable: true
-  weight: 3
+  weight: 4
   showOnNavbar: true

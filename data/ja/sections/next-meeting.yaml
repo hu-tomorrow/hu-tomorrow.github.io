@@ -1,0 +1,19 @@
+section:
+  name: "次回ミーティング"
+  id: "next-meeting"
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  
+flyer_image: "images/site/flyer.png"
+form_url: "https://forms.gle/dummy-url"
+
+summary: |
+  **開催日時：** 2026年X月X日（Y） 18:00 - 20:00<br>
+  **場所：** オンライン (zoom)<br>
+  **対象：** 広島大学の学生・教職員（どなたでも！）
+  
+  <br>
+  
+  **【申し込み方法】**<br>
+  下のボタンからご登録ください。（※フライヤー内のQRコードもご利用いただけます）

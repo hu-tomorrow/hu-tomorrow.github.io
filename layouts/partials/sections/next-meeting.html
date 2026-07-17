@@ -1,0 +1,43 @@
+{{ $lang := site.Language.Lang }}
+{{ $section := index site.Data $lang "sections" "next-meeting" }}
+
+<div class="container-fluid anchor pb-5">
+  
+  <!-- ▼ 修正：階層を正しく $section.section.name に変更しました ▼ -->
+  <h1 class="text-center mb-5">
+    <span id="{{ $section.section.id }}"></span>{{ $section.section.name }}
+  </h1>
+  
+  <div class="row justify-content-center text-center">
+    <div class="col-12 col-md-10 col-lg-8">
+      
+      <!-- フライヤー画像 -->
+      {{ if $section.flyer_image }}
+        {{ $flyer := resources.Get $section.flyer_image }}
+        {{ if $flyer }}
+          <img src="{{ $flyer.RelPermalink }}" alt="Event Flyer" style="display: block; margin: 0 auto 2.5rem auto; max-width: 100%; height: auto; max-height: 85vh; object-fit: contain; box-shadow: 0 5px 20px rgba(0,0,0,0.15);">
+        {{ else }}
+          <div style="margin: 0 auto 2.5rem auto; max-width: 600px; background-color: #ffeeba; color: #856404; padding: 1rem; border-radius: 8px;">
+            <strong>⚠️ 画像エラー：</strong><br>
+            <code>assets/{{ $section.flyer_image }}</code> に画像が見つかりません。
+          </div>
+        {{ end }}
+      {{ end }}
+      
+      <!-- テキスト情報 -->
+      <div style="display: block; margin: 0 auto; width: 100%; max-width: 600px; text-align: left; line-height: 1.8; font-size: 1.1em; color: var(--primary-text-color);">
+        {{ $section.summary | markdownify }}
+      </div>
+      
+      <!-- 参加ボタン -->
+      {{ if $section.form_url }}
+      <div style="margin-top: 2.5rem; text-align: center;">
+        <a href="{{ $section.form_url }}" target="_blank" style="display: inline-block; background-color: #0056b3; color: white; padding: 16px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transition: all 0.3s ease;">
+          {{ if eq $lang "ja" }}📝 第〇回 参加申し込みフォーム{{ else }}📝 Registration Form{{ end }}
+        </a>
+      </div>
+      {{ end }}
+      
+    </div>
+  </div>
+</div>
